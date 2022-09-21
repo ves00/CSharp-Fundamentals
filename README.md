@@ -1,2 +1,2 @@
 # CSharp-Fundamentals
- Homeworks and more exercises, from the SoftUni courses
+ Homeworks and exercises, from the SoftUni courses
