@@ -10,7 +10,7 @@ namespace _11.Snowballs
             //n = total snowballs
             int n = int.Parse(Console.ReadLine());
 
-            //maxValue is used for comparison and finding max value
+            //maxValue is used for comparison and finding the max value!!!
             BigInteger maxValue = BigInteger.MinusOne;
             //These are just variables holding some properties of the maxed snowball
             //We need them just for the output
@@ -19,13 +19,11 @@ namespace _11.Snowballs
             int maxQuality = 0;
             for (int i = 0; i < n; i++)
             {
-                // 1 iteration -> 1 snowball 
-                //For each snowball -> 3 lines 
+                //1 iteration -> 1 snowball
+                //For each snowball -> 3 lines
                 int snowballSnow = int.Parse(Console.ReadLine());
                 int snowballTime = int.Parse(Console.ReadLine());
                 int snowballQuality = int.Parse(Console.ReadLine());
-
-              
 
                 BigInteger snowballValue = BigInteger.Pow((snowballSnow / snowballTime), snowballQuality);
                 if (snowballValue > maxValue)
@@ -35,13 +33,13 @@ namespace _11.Snowballs
                     maxTime = snowballTime;
                     maxQuality = snowballQuality;
                 }
-
-                Console.WriteLine($"{maxSnow} : {maxTime} = {maxQuality} ({ snowballQuality})");
             }
+
+            Console.WriteLine($"{maxSnow} : {maxTime} = {maxValue} ({maxQuality})");
+        }
 
 
 
 
         }
     }
-}
