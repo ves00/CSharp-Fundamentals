@@ -6,26 +6,29 @@ namespace _09.Spic_MustFlow
     {
         static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
-            int m = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine());
+            int spice = int.Parse(Console.ReadLine());
 
-            double percent100 = (double)n * 0.5;
-            int hits = 0;
+            int countDays = 0;
+            int totalSpice = 0;
 
-            while (n >= m)
+            while (spice >= 100)
             {
-                n -= m;
-                hits++;
-
-                if (percent100 == n && y != 0)
-                {
-                    n /= y;
-                }
+                countDays++;
+                totalSpice += spice - 26;
+                spice -= 10;
             }
 
-            Console.WriteLine(n);
-            Console.WriteLine(hits);
+            if (totalSpice > 26)
+            {
+                totalSpice -= 26;
+            }
+            else
+            {
+                totalSpice -= totalSpice;
+            }
+
+            Console.WriteLine(countDays);
+            Console.WriteLine(totalSpice);
         }
     }
 }

@@ -34,12 +34,8 @@ namespace _11.Snowballs
                     maxQuality = snowballQuality;
                 }
             }
-
             Console.WriteLine($"{maxSnow} : {maxTime} = {maxValue} ({maxQuality})");
         }
 
-
-
-
-        }
-    }
+     }
+ }

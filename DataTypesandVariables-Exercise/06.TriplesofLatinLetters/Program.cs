@@ -10,6 +10,7 @@ namespace _06.TriplesofLatinLetters
 
             for (int i = 'a'; i < 'a' + n; i++)
             {
+
                 for (int j = 'a'; j < 'a' + n; j++)
                 {
                     for (int k = 'a'; k < 'a' + n; k++)

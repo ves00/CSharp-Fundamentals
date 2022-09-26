@@ -7,7 +7,6 @@ namespace _02.SumDigits
     {
         static void Main()
         {
-
             int num = int.Parse(Console.ReadLine());
 
             var number = num.ToString()

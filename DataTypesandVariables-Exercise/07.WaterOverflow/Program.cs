@@ -24,7 +24,6 @@ namespace _07.WaterOverflow
                     total += litters;
                 }
             }
-
             Console.WriteLine(total);
         }
     }

@@ -6,7 +6,6 @@ namespace _10.PokeMon
     {
         static void Main()
         {
-
             int n = int.Parse(Console.ReadLine());
             int m = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());
@@ -24,7 +23,6 @@ namespace _10.PokeMon
                     n /= y;
                 }
             }
-
             Console.WriteLine(n);
             Console.WriteLine(hits);
         }

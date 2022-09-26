@@ -25,7 +25,6 @@ namespace _08.BeerKegs
                     biggerName = name;
                 }
             }
-
             Console.WriteLine(biggerName);
         }
     }

@@ -6,7 +6,6 @@ namespace _04.SumofChars
     {
         static void Main()
         {
-
             int n = int.Parse(Console.ReadLine());
 
             int sum = 0;
