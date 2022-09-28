@@ -3,27 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.IntegerOperations", "01.IntegerOperations\01.IntegerOperations.csproj", "{B5AB1541-DAF2-4A3F-9D84-C67614CADA6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesandVariables-Exercise", "DataTypesandVariables-Exercise\DataTypesandVariables-Exercise.csproj", "{FDFD9575-06C5-4FB5-8661-CF497599EBA7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SumDigits", "02.SumDigits\02.SumDigits.csproj", "{EC6751FC-6679-4098-88F6-583CD6DF7724}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.IntegerOperations", "01.IntegerOperations\01.IntegerOperations.csproj", "{B5AB1541-DAF2-4A3F-9D84-C67614CADA6F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Elevator", "03.Elevator\03.Elevator.csproj", "{F584F2D7-796E-44C7-8326-1832025BC747}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumDigits", "02.SumDigits\02.SumDigits.csproj", "{EC6751FC-6679-4098-88F6-583CD6DF7724}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SumofChars", "04.SumofChars\04.SumofChars.csproj", "{813D10F5-F51B-4D8D-B5C1-3C691BAC5DB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Elevator", "03.Elevator\03.Elevator.csproj", "{F584F2D7-796E-44C7-8326-1832025BC747}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.PrintPartOfASCIITable", "05.PrintPartOfASCIITable\05.PrintPartOfASCIITable.csproj", "{9643ED48-9652-41B9-BF0D-D044305844C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SumofChars", "04.SumofChars\04.SumofChars.csproj", "{813D10F5-F51B-4D8D-B5C1-3C691BAC5DB4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.TriplesofLatinLetters", "06.TriplesofLatinLetters\06.TriplesofLatinLetters.csproj", "{4A3A4686-E240-43F3-9519-650AD1B9964B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PrintPartOfASCIITable", "05.PrintPartOfASCIITable\05.PrintPartOfASCIITable.csproj", "{9643ED48-9652-41B9-BF0D-D044305844C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.WaterOverflow", "07.WaterOverflow\07.WaterOverflow.csproj", "{324AFA6C-FAAF-40E2-9FDA-C1CA9853D167}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TriplesofLatinLetters", "06.TriplesofLatinLetters\06.TriplesofLatinLetters.csproj", "{4A3A4686-E240-43F3-9519-650AD1B9964B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.BeerKegs", "08.BeerKegs\08.BeerKegs.csproj", "{C6628177-5104-4441-9027-9D3A23621800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.WaterOverflow", "07.WaterOverflow\07.WaterOverflow.csproj", "{324AFA6C-FAAF-40E2-9FDA-C1CA9853D167}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Spic MustFlow", "09.Spic MustFlow\09.Spic MustFlow.csproj", "{5DE3CDAA-6CD5-4B08-B7FA-5B940B57C2BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BeerKegs", "08.BeerKegs\08.BeerKegs.csproj", "{C6628177-5104-4441-9027-9D3A23621800}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.PokeMon", "10.PokeMon\10.PokeMon.csproj", "{12DBA8D1-258A-405E-ADEB-A6D485C2E4BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Spic MustFlow", "09.Spic MustFlow\09.Spic MustFlow.csproj", "{5DE3CDAA-6CD5-4B08-B7FA-5B940B57C2BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.Snowballs", "11.Snowballs\11.Snowballs.csproj", "{01EF64B5-6881-4621-8777-D8CD420B166A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.PokeMon", "10.PokeMon\10.PokeMon.csproj", "{12DBA8D1-258A-405E-ADEB-A6D485C2E4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Snowballs", "11.Snowballs\11.Snowballs.csproj", "{01EF64B5-6881-4621-8777-D8CD420B166A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFD9575-06C5-4FB5-8661-CF497599EBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFD9575-06C5-4FB5-8661-CF497599EBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFD9575-06C5-4FB5-8661-CF497599EBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFD9575-06C5-4FB5-8661-CF497599EBA7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B5AB1541-DAF2-4A3F-9D84-C67614CADA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5AB1541-DAF2-4A3F-9D84-C67614CADA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5AB1541-DAF2-4A3F-9D84-C67614CADA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
