@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Text;
 
 namespace _07.RepeatString
@@ -7,17 +7,22 @@ namespace _07.RepeatString
     {
         static void Main()
         {
-            string inputStr = Console.ReadLine();
-            int count = int.Parse(Console.ReadLine());
-            string result = RepeatString(inputStr, count);
+            string input = Console.ReadLine();
+            int n = int.Parse(Console.ReadLine());
+
+            string result = RepeatString(input, n);
+
             Console.WriteLine(result);
         }
-        private static string RepeatString(string str, int count)
+        private static string RepeatString(string input, int n)
         {
-            StringBuilder result = new StringBuilder();
-            for (int i = 0; i < count; i++)
-                result.Append(str);
-            return result.ToString();
+            string result = "";
+            for (int i = 0; i < n; i++)
+            {
+                result += input;
+            }
+
+            return result;
         }
     }
 }
