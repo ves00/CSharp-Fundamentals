@@ -40,7 +40,6 @@ namespace _03.Songs
                 }
             }
 
-            // string list = Console.ReadLine();   
         }
     }
 

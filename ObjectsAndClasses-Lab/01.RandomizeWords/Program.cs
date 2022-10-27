@@ -9,7 +9,6 @@ namespace _01.RandomizeWords
             string[]  input = Console.ReadLine()
                 .Split();
 
-            //Welcome to SoftUni and have fun learning programming
             Random random = new Random();
 
 
